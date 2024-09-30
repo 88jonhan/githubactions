@@ -18,7 +18,8 @@ type Props = NativeStackScreenProps<RootStackParamList>;
 function HomeScreen({ navigation }: Props) {
     return (
         <View
-            style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+            style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}
+        >
             <Text>Home Screen</Text>
             <Button
                 title="Go to Details"
@@ -31,7 +32,8 @@ function HomeScreen({ navigation }: Props) {
 function DetailsScreen({ navigation }: Props) {
     return (
         <View
-            style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+            style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}
+        >
             <Text>Details Screen</Text>
             <Button
                 title="Go to Home"
