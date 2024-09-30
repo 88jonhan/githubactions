@@ -13,7 +13,7 @@ type RootStackParamList = {
 	Details: undefined;
 };
 
-type Props = NativeStackScreenProps<RootStackParamList, "Details", "Home">;
+type Props = NativeStackScreenProps<RootStackParamList>;
 
 function HomeScreen({ navigation }: Props) {
 	return (
